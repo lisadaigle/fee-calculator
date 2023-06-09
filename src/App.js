@@ -3,6 +3,7 @@ import "./App.css";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { MainPage } from "./MainPage";
+import { FormIndex } from "./FormIndex";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <MainPage />
       <Footer />
+      <FormIndex />
     </div>
   );
 }
