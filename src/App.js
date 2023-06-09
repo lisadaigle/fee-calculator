@@ -2,16 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { MainPage } from "./MainPage";
-import { FormIndex } from "./FormIndex";
+import { Content } from "./Content";
 
 function App() {
   return (
     <div>
       <Header />
-      <MainPage />
+      <Content />
       <Footer />
-      <FormIndex />
     </div>
   );
 }
